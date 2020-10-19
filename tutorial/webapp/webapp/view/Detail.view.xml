@@ -1,0 +1,11 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="sap.cp.webapp.controller.Detail" displayBlock="true">
+	<Page id="detail" title="{i18n>DetailTitle}" showNavButton="true" navButtonPress="handleNavButtonPress">
+		<VBox>
+			<Text text="{ProductName}"/>
+			<Text text="{UnitPrice}"/>
+			<Text text="{QuantityPerUnit}"/>
+			<Text text="{UnitsInStock}"/>
+		</VBox>
+	<content/>
+	</Page>
+</mvc:View>
