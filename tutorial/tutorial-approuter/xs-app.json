@@ -1,4 +1,5 @@
 {
+  "welcomeFile": "sapcpwebapp",
   "authenticationMethod": "none",
   "routes": []
 }
